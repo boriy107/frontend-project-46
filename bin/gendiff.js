@@ -3,7 +3,9 @@
 import { program } from 'commander';
 
 program
+  .argument('<filepath1> <filepath2>')
   .version('0.0.1', '-V, --version', 'output the version number')
   .description('Compares two configuration files and shows a difference.')
+  .option('-f, --format <type>', 'output format');
 
 program.parse();
