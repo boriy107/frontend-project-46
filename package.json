@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "This is the cli program what can help to find differences",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
